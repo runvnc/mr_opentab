@@ -1,0 +1,7 @@
+{
+  "name": "Open Tab",
+  "version": "1.0.0",
+  "description": "Command to open a tab to a URL",
+  "services": [],
+  "commands": ["open_web_page"]
+}
