@@ -10,7 +10,7 @@ setTimeout(() => {
   window.registerCommandHandler('open_web_page', (data) => {
     console.log('open_web_page', data);
     if (data.event == 'running') {
-        doNav(data.params.url);
+        doNav(data.args.url);
     }
   });
 }, 5000)
