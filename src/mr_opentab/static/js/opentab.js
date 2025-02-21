@@ -13,4 +13,4 @@ setTimeout(() => {
         doNav(data.params.url);
     }
   });
-, 5000)
+}, 5000)
